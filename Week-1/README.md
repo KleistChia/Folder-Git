@@ -1,4 +1,4 @@
-[create an anchor](#What to Learn, what had learn. (Reference incase forget))
+(#What to Learn, what had learn. (Reference incase forget))
 
 
 gs-gradle			: https://spring.io/guides/gs/gradle/  					
