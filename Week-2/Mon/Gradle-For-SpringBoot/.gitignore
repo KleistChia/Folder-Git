@@ -1,0 +1,6 @@
+build/
+.nb-gradle/
+.gradle/
+.jar
+.war
+/bin/
