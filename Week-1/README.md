@@ -8,7 +8,8 @@
 	<dt>multiple project build: https://docs.gradle.org/current/userguide/multi_project_builds.html	</dt>
 	<dd>Status: Complete</dd>
 	<dd>Files: water,bluewhale,krill,tropicalFish</dd>
-	
+</dl>
+<dl>	
 	<dt>Dependencies and execution order(ex193): https://docs.gradle.org/current/userguide/multi_project_builds.html</dt>
 	<dd>Status: Complete</dd>
 	<dd>Files: message,consumer,producer</dd>
