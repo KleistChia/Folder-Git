@@ -8,14 +8,16 @@
 ## Problems Occurr in Maven 
 1. Problems: Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
    * Solution: Include below in POM.xml
-```<properties>
+```
+<properties>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 ```
 2. Problems: Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
    * Solution: Include below in POM.xml
 
-```<reporting>
+```
+<reporting>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -28,7 +30,8 @@
 3. Problems: [WARNING] An issue has occurred with report org.apache.maven.report.projectinfo. DependenciesReport, skip LinkageError org/sonatype/aether/version/VersionConstra int, please report an issue to Maven dev team.
    * Solutions: Try to use later version to resolve the issues
 
-```<plugin>
+```
+<plugin>
    <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-project-info-reports-plugin</artifactId>
    <version>2.6</version>
