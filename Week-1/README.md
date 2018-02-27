@@ -1,12 +1,9 @@
-#What to Learn, what had learn. (Reference incase forget)
+# What to Learn, what had learn. (Reference incase forget)
 
 <dl>
-<dt>gs-gradle:</dt>
-<dd>https://spring.io/guides/gs/gradle/</dt>
-<dt>status:</dt>
-<dd>Complete</dd>
-<dt>Files:</dt>
-<dd>gs-gradle,jodatime</dd>
+<dt>gs-gradle: https://spring.io/guides/gs/gradle/</dt>
+<dd>Status: Complete</dd>
+<dd>Files: gs-gradle,jodatime</dd>
 </dl>
 multiple project build		: https://docs.gradle.org/current/userguide/multi_project_builds.html	
 		status(water)	: Complete
