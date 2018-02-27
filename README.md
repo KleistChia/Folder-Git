@@ -6,5 +6,5 @@
 4. TortoiseGit / SourceTree
 5. Web App (Thymeleaf)
 6. Kotlin (In coming up projects)
-7. - [ ] CheckStyle, - [x] FindBugs, - [x] PMD (Static Programme Analysis)
+7. - [ ] CheckStyle; - [x] FindBugs, - [x] PMD (Static Programme Analysis)
 8. Git ( - [x] Commit, - [x] Push, - [ ] Pull, - [ ] Fetch, - [x] Branching, - [ ] Merging)
