@@ -2,8 +2,8 @@
 
 <dl>
 	<dt>gs-gradle: https://spring.io/guides/gs/gradle/</dt>
-	<dd>Status: Complete</dd>
-	<dd>Files: gs-gradle,jodatime</dd>
+	* Status: Complete
+	* Files: gs-gradle,jodatime
 </dl>
 <dl>
 	<dt>multiple project build: https://docs.gradle.org/current/userguide/multi_project_builds.html	</dt>
