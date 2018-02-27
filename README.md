@@ -10,4 +10,10 @@
    * - [ ] CheckStyle
    * - [x] FindBugs
    * - [x] PMD
-8. Git ( - [x] Commit, - [x] Push, - [ ] Pull, - [ ] Fetch, - [x] Branching, - [ ] Merging)
+8. Git 
+   * - [x] Commit
+   * - [x] Push
+   * - [ ] Pull
+   * - [ ] Fetch
+   * - [x] Branching
+   * - [ ] Merging)
