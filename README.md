@@ -16,4 +16,5 @@
    * - [ ] Pull
    * - [ ] Fetch
    * - [x] Branching
-   * - [ ] Merging)
+   * - [ ] Merging
+   * - [ ] Rollback
