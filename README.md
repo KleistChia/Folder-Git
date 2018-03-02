@@ -1,20 +1,46 @@
 # List of things that learned
 
+## Week-1 Learn
+
 1. Gradle
-2. SpringBoot
-3. SpringFramework
-4. TortoiseGit / SourceTree
-5. Web App (Thymeleaf)
-6. Kotlin (In coming up projects)
-7. Static Programme Analysis
+2. Git 
+   * - [x] Commit
+   * - [x] Push
+3. TortoiseGit / SourceTree
+4. Static Programme Analysis
    * - [ ] CheckStyle
    * - [x] FindBugs
    * - [x] PMD
-8. Git 
+   
+## Week-2 Learn
+
+1. Gradle-For-Spring-Boot
+2. SpringFramework on command prompt: Basic
+3. Maven on command prompt: Basic
+4. SpringBoot for Beginner
+5. Git 
    * - [x] Commit
    * - [x] Push
-   * - [ ] Pull
-   * - [ ] Fetch
+   * - [x] Pull
+   * - [x] Fetch
    * - [x] Branching
-   * - [ ] Merging
-   * - [ ] Rollback
+   * - [x] Merging
+   * - [x] Revert
+6. REST Web Service with SpringBoot,Postman
+   * - [x] Get
+   * - [x] Post
+   * - [ ] Put
+   * - [ ] Patch
+   * - [ ] Delete
+   * - [ ] Copy
+   * - [ ] Head
+   * - [ ] Options
+   * - [ ] Link
+   * - [ ] Unlink
+   * - [ ] Purge
+   * - [ ] Lock
+   * - [ ] Unlock
+   * - [ ] Propfind
+   * - [ ] View
+7. Web App (Thymeleaf)
+8. Kotlin (In coming up projects) Note: Can Learn later
