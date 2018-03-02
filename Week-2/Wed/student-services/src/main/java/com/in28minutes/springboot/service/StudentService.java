@@ -1,5 +1,7 @@
 package com.in28minutes.springboot.service;
 
+import java.math.BigInteger;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -22,10 +24,18 @@ public class StudentService {
         Course course2 = new Course("Course2", "Spring MVC", "10 Examples",
                 Arrays.asList("Learn Maven", "Import Project", "First Example",
                         "Second Example"));
+        Course course3 = new Course("Course3", "Spring Boot", "6K Students",
+                Arrays.asList("Learn Maven", "Learn Spring",
+                        "Learn Spring MVC", "First Example", "Second Example"));
+        Course course4 = new Course("Course4", "Maven",
+                "Most popular maven course on internet!", Arrays.asList(
+                        "Pom.xml", "Build Life Cycle", "Parent POM",
+                        "Importing into Eclipse"));
+        
         
         Student ranga = new Student("Student1", "Ranga Karanam",
                 "Hiker, Programmer and Architect", new ArrayList<>(
-                        Arrays.asList(course1, course2)));
+                        Arrays.asList(course1, course2, course3)));
         
         students.add(ranga);
     }
@@ -57,5 +67,19 @@ public class StudentService {
         }
         
         return student.appliedCourse(courseId);
+    }
+    
+    private SecureRandom random = new SecureRandom();
+    
+    public Course addCourse(String studentId, Course course){
+        Student student = retrieveStudent(studentId);
+        
+        if (student == null)
+            return null;
+        
+        String randomId = new BigInteger(130,random).toString(32);
+        course.setId(randomId);
+        
+        return course;
     }
 }
