@@ -1,13 +1,13 @@
-# Mon 26/Feb/2018 The thing that learned Today
+# The thing that learn Today
 
-SpringBoot Helloworld on localhost8080: https://projects.spring.io/spring-boot/
-Status: Complete
+1. SpringBoot Helloworld on localhost8080: https://projects.spring.io/spring-boot/
+   * Status: Complete
 
-SpringFramework HelloWorld on Debug Console: https://projects.spring.io/spring-framework/
-Status: Complete
+2. SpringFramework HelloWorld on Debug Console: https://projects.spring.io/spring-framework/
+   * Status: Complete
 
-Git: Merge(Used); Commit & Push Differences(Read)
-Status: Complete
+3. Git: Merge(Used); Commit & Push Differences(Read)
+   * Status: Complete
 
-Kotlin: Kotlin in netBeans Java
-Status: Learning
+4. Kotlin: Kotlin in netBeans Java
+   * Status: Learning (Maybe use in nearly new projects so will learn it lately
