@@ -10,7 +10,7 @@
    * Files: student-services
    * Annotation learned:
         * - [x] getMapping
-        * - [ ] postMapping
+        * - [x] postMapping
         
 ## Problems Occur in Maven, Spring Boot
 
