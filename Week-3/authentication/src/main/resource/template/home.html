@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thmeleaf-extras-springsecurity3">
+    <head>
+        <title>Security with Spring Boot</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>Hello, Welcome to Home page.</h1>
+        <a style="color: blue" th:href="@{/user}">User Page</a>
+        <br/>
+        <a style="color: blue" th:href="@{/Admin}">Admin Page</a>
+    </body>
+</html>
