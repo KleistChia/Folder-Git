@@ -7,22 +7,19 @@ package com.thymeleaf.springsecurity.mysql.authentication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
  *
  * @author UF-ChaiWaiBin
  */
 @SpringBootApplication
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
-public class jdbcAuthMySqlApplication {
+public class JdbcAuthMySqlApplication {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        SpringApplication.run(jdbcAuthMySqlApplication.class, args);
+        SpringApplication.run(JdbcAuthMySqlApplication.class, args);
     }
     
 }

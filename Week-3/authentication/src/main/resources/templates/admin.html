@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>Welcome Security with Spring Boot!</title>
+    </head>
+    <body>
+        <h1>Hello, the page is for Admin!</h1>
+        <a style="color: blue" th:href="@{/}">Home</a>
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out" />
+        </form>
+        <form th:action="@{/createUser]" method="post">
+            <div>
+                <label for="username"> New Username: </label>
+                <input type="text" class="form-createUser" id="username" placeholder="Enter New Username" name="username" />
+                <label for="password"> New Password: </label>
+                <input type="text" class="form-createUser" id="password" placeholder="Enter New Password" name="password" />
+            </div>
+        </form>
+    </body>
+</html>
+
