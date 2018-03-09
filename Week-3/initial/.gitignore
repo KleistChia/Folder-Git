@@ -1,5 +1,11 @@
+### maven ###
 target/
-.mvn
+!.mvn/wrapper/maven-wrapper.jar
+mvnw.*
+mvn
+
+### netbeans ###
+nbaction.xml
 
 ### STS ###
 .apt_generated
@@ -22,6 +28,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+gradlew.*
+gradlew
 
-###Gradle###
-gradle/
+### .gitattributes ###
