@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 mvnw.*
 mvn
+.mvn 
 
 ### netbeans ###
 nbaction.xml
@@ -31,5 +32,6 @@ nbdist/
 gradlew.*
 gradlew
 .gradle
+gradle/
 
 ### .gitattributes ###
