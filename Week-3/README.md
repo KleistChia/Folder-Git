@@ -32,23 +32,30 @@
    
 5. Begin to develop the student enroll course Web application
     1. Status:
-        a. Login page:
+        1. Login page:
             * - [x] Spring-Security setup for login
-            * - [ ] UI Design for login
             * - [ ] A href link for register new user and store into database
-        b. Home page:
+            * - [ ] Forget Password
+            * - [ ] UI Design for page
+        2. Home page:
             * - [ ] Content of Home page (Not yet think what content should have)
             * - [ ] A href link for enroll courses
-        c. Enroll Courses:
+            * - [ ] UI Design for page
+        3. Enroll Courses:
             * - [ ] Create for student to enroll course (Not yet decide should the form on same page or another page)
             * - [ ] A list of avaible course to enroll (will exclude the course that ald enroll by the current user)
             * - [ ] A list of course that current user has enrolled
-        d. Apply for change Courses:
+            * - [ ] UI Design for page
+        4. Apply for change Courses:
             * - [ ] Able to cancel courses
             * - [ ] Able to change the schedule of the enrolled course
-        e. Application Status: (not yet decide name)
+            * - [ ] UI Design for page
+        5. View Application Status:
             * - [ ] The results of the the change application (Change schedule) and cancel application (cancel the course)
-        f. Application Approval:
+            * - [ ] UI Design for page
+        6. Application Approval:
             * - [ ] For the lecture used, to approve on the change of schedule
-        g. Admin Approval:
+            * - [ ] UI Design for page
+        7. Admin Approval:
             * - [ ] For the Admin to approve the user to cancel application
+            * - [ ] UI Design for page

@@ -44,3 +44,12 @@
    * - [ ] View
 7. Web App (Thymeleaf)
 8. Kotlin (In coming up projects) Note: Can Learn later
+
+## Week-3 Learn
+
+1. Learn how Jdbc + Mysql + REST services work together
+2. Learn how to get and store data to H2 in memory by using Spring jdbc
+3. Learn how to connect Mysql through Spring-boot-starter-jdbc
+4. Learn how to use Spring-security to create login
+
+## Week-4 Learn
